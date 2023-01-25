@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<title>Turismo Chañar | Venado Tuerto</title>
+		<link rel="stylesheet" href="fonts/css/all.css" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,300&family=Poppins:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<header class="menu">
+			<!-------------- MENU PC ---------------->
+
+			<div class="fixed-top menupc">
+				<div
+					class="row justify-content-lg-between align-items-center py-3 px-5"
+				>
+					<div class="col-12 d-flex justify-content-center col-lg-auto">
+						<img class="logo" src="img/logotipo.png" alt="" />
+					</div>
+					<div class="d-none d-md-inline col-12 col-lg-auto">
+						<ul class="nav justify-content-center">
+							<li class="nav-item">
+								<a href="#" class="nav-link active">Inicio</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Viajes</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Chañar</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Clientes</a>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link">Contacto</a>
+							</li>
+						</ul>
+					</div>
+					<div
+						class="t-redes d-none d-md-inline col-12 text-center col-lg-auto"
+					>
+						<a href="#" class="mr-1">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" class="mr-1">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#">
+							<i class="far fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+
+			<!-------------- MENU MOVIL ---------------->
+
+			<div class="container d-md-none">
+				<div class="row fixed-bottom">
+					<div class="col text-right my-4 mx-4">
+						<div class="dropup">
+							<buttom
+								class="btn btn-primary dropdown-toggle"
+								type="buttom"
+								data-toggle="dropdown"
+							>
+								<i class="fas fa-bars"></i>
+							</buttom>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Inicio</a>
+								<a href="#" class="dropdown-item">Viajes</a>
+								<a href="#" class="dropdown-item">Chañar</a>
+								<a href="#" class="dropdown-item">Clientes</a>
+								<a href="#" class="dropdown-item">Contacto</a>
+
+								<div class="col d-inline-block text-left ml-2">
+									<a href="#" class="mr-1">
+										<i class="fab fa-facebook-f"></i>
+									</a>
+									<a href="#" class="mr-1">
+										<i class="fab fa-instagram"></i>
+									</a>
+									<a href="#">
+										<i class="far fa-envelope"></i>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section class="main">
+			<!-------------- BANNER ---------------->
+
+			<section class="row main-carousel">
+				<div class="col">
+					<div
+						id="carouselDestacado"
+						class="carousel slide"
+						data-ride="carousel"
+						data-interval="5000"
+					>
+						<ol class="carousel-indicators">
+							<li
+								data-target="#carouselDestacado"
+								data-slide-to="0"
+								class="active"
+							></li>
+							<li data-target="#carouselDestacado" data-slide-to="1"></li>
+							<li data-target="#carouselDestacado" data-slide-to="2"></li>
+						</ol>
+
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="img/banner4.png" class="d-block w-100" alt="" />
+								<div class="carousel-caption text-dark d-none d-md-block">
+									<h5>Tenemos una propuesta para vos</h5>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+										Iure, doloremque.
+									</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="img/banner5.png" class="d-block w-100" alt="" />
+								<div class="carousel-caption text-dark d-none d-md-block">
+									<h5>Viajes</h5>
+									<p>
+										Color sit amet, consectetur adipisicing elit. Iure,
+										doloremque.
+									</p>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<img src="img/banner6.png" class="d-block w-100" alt="" />
+								<div class="carousel-caption text-dark d-none d-md-block">
+									<h5>Excursiones</h5>
+									<p>
+										Ipsum dolor sit amet, consectetur adipisicing elit. Iure,
+										doloremque.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<a
+							href="#carouselDestacado"
+							class="carousel-control-prev"
+							data-slide="prev"
+						>
+							<span class="carousel-control-prev-icon"></span>
+							<span class="sr-only">Anterior</span>
+						</a>
+
+						<a
+							href="#carouselDestacado"
+							class="carousel-control-next"
+							data-slide="next"
+						>
+							<span class="carousel-control-next-icon"></span>
+							<span class="sr-only">Siguiente</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-------------- Masonery Viajes ---------------->
+
+			<section class="row viajes-masonery-filter">
+				<div class="container">
+					<div class="col">
+						<div
+							class="
+								viajes-masonery-filter
+								mt-4
+								mb-4
+								border-top border-bottom
+								py-3
+							"
+						>
+							<ul class="nav nav-fill">
+								<li class="nav-item">
+									<a
+										href="#argentina"
+										class="nav-link text-uppercase raya"
+										data-toggle="tab"
+										>Argentina</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#sudamerica"
+										class="nav-link text-uppercase raya"
+										data-toggle="tab"
+										>Sudamérica</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#europa"
+										class="nav-link text-uppercase raya active"
+										data-toggle="tab"
+										>Europa</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#caribe"
+										class="nav-link text-uppercase raya"
+										data-toggle="tab"
+										>Caribe</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#norteamerica"
+										class="nav-link text-uppercase raya"
+										data-toggle="tab"
+										>Norteamérica</a
+									>
+								</li>
+								<li class="nav-item">
+									<a
+										href="#resto"
+										class="nav-link text-uppercase raya"
+										data-toggle="tab"
+										>Resto del mundo</a
+									>
+								</li>
+							</ul>
+						</div>
+
+						<div class="viajes-masonery">
+							<div class="tab-content">
+								<!--ARGENTINA-->
+								<div class="tab-pane fade" id="argentina">
+									<div class="card-columns">
+										<a href="#">
+											<div class="card">
+												<img src="img/arg5.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">
+														Visitando el Norte Argentino
+													</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/arg3.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Cataratas Inolvidable</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/arg1.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Buenos Aires</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/arg4.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">El salar de Salta</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/arg6.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Esquel y Trevelín</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/arg7.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Catamarca deslumbrante</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/arg2.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Paseo por el Glaciar</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<!--SUDAMERICA-->
+								<div class="tab-pane fade" id="sudamerica">
+									<div class="card-columns">
+										<a href="#">
+											<div class="card">
+												<img src="img/sud5.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Playas de Brasil</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/sud3.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Bolivia</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/sud1.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Todo Chile</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/sud4.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Uruguay en 10 días</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/sud6.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">La magia de Perú</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/sud7.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Isla de Pascua</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/sud2.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Bogota y Cartagena</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!--EUROPA-->
+
+								<div class="tab-pane fade show active" id="europa">
+									<div class="card-columns">
+										<a href="#">
+											<div class="card">
+												<img
+													src="img/viajes2.png"
+													alt=""
+													class="card-img-top active"
+												/>
+												<div class="class-body">
+													<h5 class="card-tittle">Misteriosa Turquía</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/viaje1.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Barcelona</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/viaje3.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Todo Reino Unido</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img
+													src="img/viajes5.png"
+													alt=""
+													class="card-img-top"
+												/>
+												<div class="class-body">
+													<h5 class="card-tittle">Antigua Italia</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img
+													src="img/viajes6.png"
+													alt=""
+													class="card-img-top"
+												/>
+												<div class="class-body">
+													<h5 class="card-tittle">Lo mejor de Grecia</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/viaje7.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Playas de Ibiza</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!--CARIBE-->
+
+								<div class="tab-pane fade" id="caribe">
+									<div class="card-columns">
+										<a href="#">
+											<div class="card">
+												<img src="img/car5.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Caribe Colombiano</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/car3.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Cancún All Inclusive</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/car1.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Curazao</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/car4.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Crucero por las Bahamas</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/car6.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Lo mejor de Cuba</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/car2.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Islas Caimán de lujo</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!--NORTEAMERICA-->
+
+								<div class="tab-pane fade" id="norteamerica">
+									<div class="card-columns">
+										<a href="#">
+											<div class="card">
+												<img src="img/nor5.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Disney en familia</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/nor3.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Cataratas del Niagara</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/nor1.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Los Angeles</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/nor4.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Nueva Orleans</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/nor6.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Nueva York y Boston</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/nor7.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Parques de Canada</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/nor2.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Compras en Miami</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<!--RESTO-->
+
+								<div class="tab-pane fade" id="resto">
+									<div class="card-columns">
+										<a href="#">
+											<div class="card">
+												<img src="img/resto5.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Japón en Primavera</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/resto3.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Nueva Zelanda 20 días</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/resto1.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Marruecos</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/resto7.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">15 días en Australia</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/resto6.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Lo mejor de Egipto</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+
+										<a href="#">
+											<div class="card">
+												<img src="img/resto2.png" alt="" class="card-img-top" />
+												<div class="class-body">
+													<h5 class="card-tittle">Safari en Africa</h5>
+													<p class="card-text">$30000</p>
+													<a href="#" class="btn btn-primary mt-1">Saber más</a>
+												</div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--EL DIV DEL CONTAINER-->
+			</section>
+
+			<!-- CONTACTO -->
+
+			<div class="section contact p-3 bg-dark shadow rounded">
+				<div class="container">
+					<div class="row py-5 justify-content-center align-items-center">
+						<div class="col-12 mb-4 mb-md-0">
+							<p class="texto-contacto text-white text-center">
+								Necesitas una cotización?
+							</p>
+						</div>
+						<div class="col-12 text-center">
+							<a href="" class="btn btn-outline-secondary text-uppercase"
+								>Contáctanos</a
+							>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- BLOG -->
+
+			<section class="blog">
+				<div class="container">
+					<div class="row articulos pt-5">
+						<div class="col">
+							<h2>Artículos destacados</h2>
+						</div>
+					</div>
+
+					<div class="row pt-3 pb-1">
+						<div class="col-12 col-lg-6 mt-3">
+							<div class="card text-white shadow mb-5 rounded h-100">
+								<img src="img/post1.png" class="card-img h-100" alt="" />
+								<div class="card-img-overlay h-100 d-flex align-items-end">
+									<div class="post-info">
+										<h5 class="card-title">Documentación de viaje</h5>
+										<p class="card-text">
+											This is a wider card with supporting text below as a
+											natural lead-in to additional content. This content is a
+											little bit longer.
+										</p>
+										<a href="#" class="card-text">Leer más</a>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-12 col-lg-6 mt-3">
+							<div class="card text-white shadow mb-5 rounded h-100">
+								<img src="img/post2.png" class="card-img h-100" alt="" />
+								<div class="card-img-overlay h-100 d-flex align-items-end">
+									<div class="post-info">
+										<h5 class="card-title">Telefonía en el exterior</h5>
+										<p class="card-text">
+											This is a wider card with supporting text below as a
+											natural lead-in to additional content. This content is a
+											little bit longer.
+										</p>
+										<a href="#" class="card-text">Leer más</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row pt-5 pb-1">
+						<div class="col-lg d-none d-sm-block">
+							<div class="row">
+								<div class="col-sm-4 col-lg-2">
+									<img
+										src="img/post3.png"
+										class="img-fluid shadow mb-5 rounded"
+										alt=""
+									/>
+								</div>
+								<div class="col-sm-8 col-lg-4 post">
+									<h4>Visas y permisos</h4>
+									<p>
+										Color sit amet, consectetur adipisicing elit.
+										Sapiente,adipisicing elit. Sapiente
+									</p>
+									<a href="#" class="blog-link">Leer más</a>
+								</div>
+
+								<div class="col-sm-4 col-lg-2">
+									<img
+										src="img/post4.png"
+										class="img-fluid shadow mb-5 rounded"
+										alt=""
+									/>
+								</div>
+								<div class="col-sm-8 col-lg-4 post">
+									<h4>Viajar con niños</h4>
+									<p>
+										Color sit amet, consectetur adipisicing elit.
+										Sapiente,adipisicing elit. Sapiente
+									</p>
+									<a href="#" class="blog-link">Leer más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row py-1">
+						<div class="col-lg d-none d-sm-block">
+							<div class="row">
+								<div class="col-sm-4 col-lg-2">
+									<img
+										src="img/post5.png"
+										class="img-fluid shadow mb-5 rounded"
+										alt=""
+									/>
+								</div>
+								<div class="col-sm-8 col-lg-4 post">
+									<h4>Moneda de cada país</h4>
+									<p>
+										Color sit amet, consectetur adipisicing elit.
+										Sapiente,adipisicing elit. Sapiente
+									</p>
+									<a href="#" class="blog-link">Leer más</a>
+								</div>
+
+								<div class="col-sm-4 col-lg-2">
+									<img
+										src="img/post6.png"
+										class="img-fluid shadow mb-5 rounded"
+										alt=""
+									/>
+								</div>
+								<div class="col-sm-8 col-lg-4 post">
+									<h4>Viajar con mascotas</h4>
+									<p>
+										Color sit amet, consectetur adipisicing elit.
+										Sapiente,adipisicing elit. Sapiente
+									</p>
+									<a href="#" class="blog-link">Leer más</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+
+		<!-- FOOTER -->
+
+		<footer class="bg-dark">
+			<div class="container">
+				<div class="row justify-content-md-between align-items-center py-3">
+					<div class="col-12 text-center">
+						<a href="#" class="mr-1 b-redes">
+							<i class="fab fa-facebook-f"></i>
+						</a>
+						<a href="#" class="mr-1 b-redes">
+							<i class="fab fa-instagram"></i>
+						</a>
+						<a href="#" class="b-redes">
+							<i class="far fa-envelope"></i>
+						</a>
+					</div>
+
+					<div class="col-12 text-center">
+						<p class="text-white mb-0">
+							<small>&copy; Todos los derechos reservados</small>
+						</p>
+					</div>
+
+					<div class="col-12 text-center">
+						<a href="#" class="pinky">Design by -Pink Pepper-</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,182 @@
+$primary: #50c5f4;
+$dark: #0a3782;
+$secondary: #fef6ed;
+$light: #f8f5f5;
+$border-color: #eee;
+
+//Bootstrap
+
+@import "../bootstrap/scss/bootstrap";
+
+// ------------------------------------
+
+//GENERALES
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
+
+a{
+	color: $dark;
+	text-transform: uppercase;
+	
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+p{
+	margin-bottom: 0;
+}
+
+//MENU
+
+.menupc{
+	background: rgba(133, 168, 192, 0.7);
+
+	a{
+		font-weight: 700;
+		&:hover{
+			color: $light;
+		}
+	}
+}
+
+
+.logo{
+	width: 100px;
+}
+
+
+.t-redes{
+	font-size: 20px;
+}
+
+
+//BANNER
+
+.carousel-caption{
+
+	h5{
+		color: $light;
+		font-size: 30px;
+		text-transform: uppercase;
+	}
+
+	p{
+		color: $light;
+		font-size: 15px;
+	}
+}
+
+// TABS
+
+.viajes-masonery-filter{
+	background-color: $light;
+}
+
+.raya{
+
+	&.active{
+
+		border-bottom: 2px solid $primary;
+		color: $primary;
+
+	}
+}
+
+.viajes-masonery{
+	.card{
+		text-align: center;
+		border: none;
+		margin-bottom: 40px;
+		background: $light;
+
+
+
+		h5{
+			text-transform: uppercase;
+			font-weight: 300;
+
+			&::before{
+				content: '';
+				display: block;
+				width: 70px;
+				height: 2px;
+				background: $primary;
+				margin: 15px auto 30px;
+			}
+		}
+
+		p{
+			color: $dark;
+			font-weight: 500;
+		}
+	}
+}
+
+
+//CONTACTO
+
+.texto-contacto{
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+
+// BLOG
+
+.articulos{
+	h2{
+		font-family: 'Nunito', sans-serif;
+		color: $dark;
+	}
+}
+
+.blog{
+	background-color: $light;
+
+}
+
+.card-img-overlay{
+	background: rgba(133, 168, 192, 0.3);
+}
+
+.post{
+	color: $dark;
+
+	p{
+		margin-bottom: 5px;
+	}
+}
+
+//FOOTER
+footer{
+
+.b-redes{
+	text-decoration: none;
+	color: $light;
+	font-size: 20px;
+
+		&:hover{
+			color: $primary;
+		}
+
+
+	}
+
+.pinky{
+	color: #f1d9d9;
+	font-size: 15px;
+		
+		&:hover{
+			color: #fb8baf;
+		}
+
+}
+
+
+
+}
+
